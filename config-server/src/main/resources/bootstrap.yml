@@ -8,10 +8,10 @@ spring:
           uri: https://github.com/orcunsancar/spring-cloud-config-server-repository
           default-label: main
           username: orcunsancar
-          password: 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
+          password: '{cipher}ed82d88d62821fbec0602a15cb1236395088eeb1f80da5ed7c3e68e21a62f57687930c80197df651ad5e490e15c7b1944444cdce22e1c27fc7e0c0a143a68ee2'
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}4690e56fae778ffe1e7621d978a8750ce812f174259b649db024277f4d85b787c348c7a7ca69c0484b3ae54bd20399a0'
