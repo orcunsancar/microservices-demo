@@ -5,6 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: file:/F:/AliGelenler Projects/microservices-demo/config-server-repository
+          uri: https://github.com/orcunsancar/spring-cloud-config-server-repository
+          username: orcunsancar
+          password: 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
           clone-on-start: true
+          default-label: main
     fail-fast: true
