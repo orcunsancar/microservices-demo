@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/orcunsancar/spring-cloud-config-server-repository
           default-label: main
           username: orcunsancar
-          password: '{cipher}ed82d88d62821fbec0602a15cb1236395088eeb1f80da5ed7c3e68e21a62f57687930c80197df651ad5e490e15c7b1944444cdce22e1c27fc7e0c0a143a68ee2'
+          password: '{cipher}760c6ba9122bdbe8bcc410daf10be0fd13cda8d835eaab09de42d7b2fac34dfd45603a7f3cef0408d34ea3035b8c45aa6200bdf2aa04c64793f6f9e352ccafe9'
           clone-on-start: true
     fail-fast: true
   security:
