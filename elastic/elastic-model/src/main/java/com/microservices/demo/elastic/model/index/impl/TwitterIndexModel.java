@@ -3,6 +3,7 @@ package com.microservices.demo.elastic.model.index.impl;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.microservices.demo.elastic.model.index.IndexModel;
+
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.elasticsearch.annotations.DateFormat;
