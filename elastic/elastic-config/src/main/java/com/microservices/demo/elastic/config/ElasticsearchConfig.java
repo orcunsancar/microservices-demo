@@ -47,4 +47,5 @@ public class ElasticsearchConfig extends AbstractElasticsearchConfiguration {
     public ElasticsearchOperations elasticsearchTemplate() {
         return new ElasticsearchRestTemplate(elasticsearchClient());
     }
+
 }
