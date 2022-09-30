@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<modules>
 		<module>twitter-to-kafka-service</module>
@@ -21,6 +21,7 @@
 		<module>elastic-query-web-client-common</module>
 		<module>reactive-elastic-query-service</module>
 		<module>reactive-elastic-query-web-client</module>
+		<module>elastic-query-web-client-2</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
